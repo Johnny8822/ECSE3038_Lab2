@@ -17,7 +17,10 @@ Reason - No pokemon stronger than God.
 
 
 create_person 
-This code will allow for a new entry to be made in the data list using the POST request. The function also checks if the data entered is valid or not. If the data is not valid then the request will give back an error. If the data is valid then it will give back success and print the entred data. 
+This code will allow for a new entry to be made in the data list using the POST request. 
+The function also checks if the data entered is valid or not. 
+If the data is not valid then the request will give back an error. 
+If the data is valid then it will give back success and print the entred data. 
 e.g 
 name": "Beef Wellington",
 	"occupation": "Fry Cook",
