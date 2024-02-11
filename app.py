@@ -6,6 +6,7 @@ data = []
 
 @app.post("/person") 
 async def create_person(person):
+    data.append(person)
     if not person.get("occupation") or not person.get("name") or not person.get("address"):
         result = {"error_message": "invalid request"}    
         print(result)
@@ -13,7 +14,7 @@ async def create_person(person):
     else:
         data.append(person)
         result = "success" 
-        print(data)
+        print(person)
         return result
         
 
