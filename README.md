@@ -1,4 +1,4 @@
-#####[Jonathan White ECSE3038 LAB 2]  
+Jonathan White ECSE3038 LAB 2
 I had trouble with the VSCODE Github uploading hence no gitignore
 
 Create an API that implement a POST request handler to add new people to the existing data list and a 
